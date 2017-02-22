@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TCEQ - Test Chapter 0</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="dataStandards.css">
+  <script language="JavaScript" type="text/javascript" src="register.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Texas Commision on Environmental Quality</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="https://www.tceq.texas.gov/" target="_blank"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> TCEQ Homepage</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> Useful Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://home.tceq.state.tx.us/internal/admin/ir/eamt/docs/cr-ref-data-standards.docx" target="_blank"> TCEQ Data Standards </a></li>
+            <li><a href="http://home.tceq.state.tx.us/internal/training/online/data/core/cr-sop-handling-cdf.docx" target="_blank"> Handling of Core Data Forms SOP </a></li>
+            <li><a href="http://cf9intprd1.tceq.texas.gov/crintrpt/" target="_blank"> T-Net Central Registry Query with Compliance History Classification & Rating </a></li>
+            <li><a href="http://www15.tceq.texas.gov/crpub/" target="_blank"> Public Central Registry Query </a></li>
+            <li><a href="http://home.tceq.state.tx.us/internal/training/online/data/core/data_standards_tools.html" target="_blank"> Tools Page </a></li>
+            </ul>  
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="jumbotron" id="jumbo">
+    <h2 id="pageTitle">TCEQ Data Standards Training</h2>
+    <p class="certificate-message">Follow the instructions printed at the bottom of your certificate to get credit for this course. Fields with an asterisk (*) require valid data. Do not let the browser auto-complete any fields.</p>
+    
+<form action="#" name="registerform" id="registration">
+  <ul>
+    <li>
+      <label for="Name" id="labelName" class="reglabel">Name*</label></br>
+      <input type="text" name="Name" size="20" maxlength="40" value="" class="regfield" />
+    </li>
+
+    <li>
+      <label for="EmployeeID" id="labelEmployeeID" class="reglabel">Employee ID No.</label></br>
+      <input type="text" name="EmployeeID" size="20" maxlength="8" class="regfield" />
+    </li>
+
+    <li>
+      <label for="MC" id="labelMC" class="reglabel">MC</label></br>
+      <input type="text" name="MC" size="20" maxlength="6" class="regfield" />
+    </li>
+
+    <li>
+      <label for="Email" id="labelEmail" class="reglabel">E-mail ID*</label></br>
+      <input type="text" name="Email" size="20" maxlength="97" value="" class="regfield" />
+    </li>
+
+    <li>
+      <label for="Supervisor" id="labelSupervisor" class="reglabel">Supervisor</label></br>
+      <input type="text" name="Supervisor" size="20" maxlength="25" class="regfield" />
+    </li>
+
+    <li>
+      <label for="Phone" id="labelPhone" class="reglabel">Phone No.</label></br>
+      <input type="text" name="Phone" size="20" maxlength="14" class="regfield" />
+    </li>
+
+    <li>
+      <label for="Fax" id="labelFax" class="reglabel">FAX No.</label></br>
+      <input type="text" name="Fax" size="20" maxlength="14" class="regfield" />
+    </li>
+
+  </ul>
+
+  <div style="padding-left: 40px">
+    <input type="button" name="submit" value="Submit" onclick="certify()" class="btn btn-success btn-lg" />
+    <input type="reset" onclick="reset()" class="btn btn-warning btn-lg" />
+  </div>
+    
+    <!-- To print a signature line, change the value to "True" -->
+  <input type="hidden" id="signature" value="False" />
+    
+    <!-- To print instructions for getting credit, change the value to "True" -->
+  <input type="hidden" id="credit" value="True" />
+    
+</form>
+
+</div>
+</div>
+
+  </script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+[04-Apr-2016 07:15:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, resource given in /home/chingkwa2973/public_html/cron_jobs/daily_alert.php on line 10
+[04-Apr-2016 07:30:05 UTC] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/chingkwa2973/public_html/cron_jobs/daily_alert.php on line 3
+[04-Apr-2016 07:30:05 UTC] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/chingkwa2973/public_html/cron_jobs/daily_alert.php on line 3
+[04-Apr-2016 07:30:05 UTC] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chingkwa2973/public_html/cron_jobs/daily_alert.php on line 3

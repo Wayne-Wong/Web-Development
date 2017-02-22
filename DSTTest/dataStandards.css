@@ -1,0 +1,151 @@
+/**************************************************************
+* Website background image
+**************************************************************/
+body {
+	background: url(https://images.unsplash.com/photo-1427464407917-c817c9a0a6f6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=812662922febc6b1006719224d6c3772);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/**************************************************************
+* Website font style
+**************************************************************/
+.container {
+	font-family: 'Vollkorn', serif;
+}
+
+/**************************************************************
+* Background color of center div
+**************************************************************/
+#jumbo {
+	background-color: #F3FAFF;
+}
+
+/**************************************************************
+* Font size inside the table of contents
+**************************************************************/
+table {
+	font-size: 18px;
+}
+
+/**************************************************************
+* Font color of the clickable links
+**************************************************************/
+a {
+	color: black;
+}
+
+/**************************************************************
+* Padding of the form
+**************************************************************/
+.form-horizontal {
+	padding-top: 15%;
+	padding-left: 25%;
+	padding-bottom: 5%
+}
+
+/**************************************************************
+* Box size for the input and password field
+**************************************************************/
+input[type=text], input[type=password] { 
+	width: 50%; 
+	box-sizing: border-box; 
+	height: 45px; 
+}
+
+/**************************************************************
+* Checkbox font size
+**************************************************************/
+.checkbox label {
+	font-size: 18px;
+}
+
+/**************************************************************
+* Form size 
+**************************************************************/
+.form-horizontal .control-label {
+	font-size: 20px;
+	color: #F1E5E1;
+}
+
+/**************************************************************
+* Font size of the title
+**************************************************************/
+#title-font {
+	font-size: 50px;
+}
+
+/**************************************************************
+* Font size of the header
+**************************************************************/
+#header-font {
+	font-size: 28px;
+}
+
+/**************************************************************
+* Font size and color of the navbar
+**************************************************************/
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+	font-size: 18px;
+	color: white;
+}
+
+/**************************************************************
+* Background color of the navbar
+**************************************************************/
+.navbar-inverse {
+	background-color: #154360;
+	border-color:#154360;
+}
+
+/**************************************************************
+* Background color of the navbar when hovered
+**************************************************************/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #00818E;
+}
+
+/**************************************************************
+* Test questions font size, padding, and color
+**************************************************************/
+.tceq-test {
+	color: black;
+	font-family: 'Vollkorn', serif;
+	font-size: 1.4em;
+	padding: 2% 5%;
+}
+
+/**************************************************************
+* Styling for the video 
+**************************************************************/
+.tscplayer_inline {
+	position:static;
+	margin: 30px;
+	width: 95%;
+	height: 560px;
+	z-index:auto;
+}
+
+/**************************************************************
+* Size of the video (width)
+**************************************************************/
+@media screen and (max-width: 768px) {
+    .tscplayer_inline {
+	width: 100%;
+    }
+}
+
+/**************************************************************
+* Font size of the labels on the certificate page
+**************************************************************/
+.reglabel {
+	font-size: 13pt;
+}
+
+/**************************************************************
+* Font size of the message at the top of the certificate page
+**************************************************************/
+.certificate-message {
+	font-size: 10pt;
+}
