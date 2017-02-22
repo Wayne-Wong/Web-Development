@@ -1,17 +1,17 @@
 ### A collection of webpages
 
-#--- MedicineDB ---
+#--- MedicineDB --- http://medicine.waynewong93.com/
 # Allows you to search for common medicine names from a small medicine database. 
 # It will show its description, side effects, and general use. 
 # Users can also create their own profile and get reminded to take their medication via email. 
 # The app can also track your history if you ever forget!
 
-#--- Jewelry ---
+#--- Jewelry --- http://jewelry.waynewong93.com/
 # All the jewelries are handcrafted by my mom. 
 # This website is made when I was practicing the cms WordPress and WooCommerce. So, do not actually buy jewelries!
 # However, if you absolutely love it then please send me an email. I'll be happy to send one to you if I still have it.
 
-#--- Dyslexia ---
+#--- Dyslexia --- http://dyslexia.waynewong93.com/
 # This is still an on-going project for me as I still have quite some research that I need to do. 
 # For instance, what type of environment, font family, font size, and color contrast would help them read better?
 
